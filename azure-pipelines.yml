@@ -14,7 +14,7 @@ steps:
   displayName: Build Image
   inputs:
     command: buildAndPush
-    containerRegistry: Harbor-Vecc
+    containerRegistry: Harbor-Vecc-Docker
     repository: vecc/prometheus
     tags: |
       $(build.buildNumber)
